@@ -19,5 +19,15 @@ public class GetCategoryResponse {
     @JsonProperty("products")
     private List<Product> products = new ArrayList<>();
 
+    public Integer getId() {
+        return id;
+    }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
 }
